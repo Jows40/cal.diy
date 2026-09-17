@@ -17,8 +17,8 @@ services:
     volumes:
       - database-data:/var/lib/postgresql
     environment:
-      - POSTGRES_USER=unicorn_user
-      - POSTGRES_PASSWORD=magical_password
+      - POSTGRES_USER=postgres_calcom_dca748a3
+      - POSTGRES_PASSWORD=d1ebb416e02f6a8711df50a9c99a464f0d24da11d0b82949
       - POSTGRES_DB=calendso
     networks:
       - stack
